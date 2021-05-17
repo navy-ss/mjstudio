@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+img {max-width: 100%;height: auto;}
+
+@media \0screen {
+  img { width: auto; /* for ie 8 */ }
+}
+
+@media screen and (max-width: 1024px) {
+
+.home-wrapper { top: 560px;}
+.callbacks_nav.prev, .callbacks_nav.next { top: 20%;}
+.team ul li { width: 40%; margin: 2% 2%;}
+.service ul li h2{font-size: 16px;}
+.service_title { margin: -100px 0 0;}
+
+.df_class { padding: 0 2%; width: 96%;}
+.welcome_logo { margin: -85px auto 40px;}
+
+}
+
+@media screen and (max-width: 980px) {
+	
+.header_contact p, .header_contact a{font-size:12px;}
+
+
+
+.df_class ul li { font: 300 15px/22px "Roboto";}
+.form ul li { font: 300 16px/55px "Roboto";}
+
+}
+
+@media screen and (max-width: 800px) {
+
+p{font: normal 14px 'Roboto Slab';}
+.logo { text-align: center; width: 98%;}
+.logo img { display: inline-block;}
+.header_contactholder { width: 33%;}
+header{position:relative;}
+.nav_container{display:none;}
+.banner{position:relative; top:auto;}
+.home-wrapper { top: auto; z-index: 9;}
+.callbacks_nav.prev, .callbacks_nav.next { top: 5%;}
+.service ul li { width: 42%;}
+.team ul li { min-height: 440px;}
+
+.inner_banner h2 { margin: 200px 0 0; font-size:20px;}
+
+
+.diamond { margin: 50px auto; padding:20px 0;  transform: rotate(0deg); width: 100%;}
+.content_div { transform: rotate(0deg); width: 100%;}
+
+
+}
+
+@media screen and (max-width: 768px) {
+	
+.hdr_social { display:none;}
+.header_contact{width:98%;}
+.welcome_logo { margin: -100px auto 40px;}
+.welcome p { font-weight: 300;}
+.df_class p { font-weight: 300;}
+
+
+img.alignleft { float: none; margin: 1% auto; display: block;}
+img.alignright { float: none; margin: 1% auto; display: block;}
+.gallery ul li { width: 46%;}
+.contact-details { width: 90%; padding: 2% 5%;}
+.map-holder { width: 90%; margin: 10% 5%;}
+
+.inner_banner{background: url("../images/inner_banner.jpg") no-repeat fixed 60% -15% / cover  #000000;}
+.testimonial ul li img { margin: 10px auto;}
+.testimonial ul li h2 span{ display:block;}
+
+}
+
+@media screen and (max-width: 736px) {
+
+
+
+}
+
+@media screen and (max-width: 667px) {
+
+.logo { margin: 0 2%; width: 96%;}
+.gallery ul li { width: 44%;}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.service ul li { width: 58%;}
+.team ul li { width: 90%; min-height:0px;}
+
+.df_class ul li { font: 300 14px/21px "Roboto";}
+
+}
+
+@media screen and (max-width: 568px) {
+
+.service ul li { width: 61%;}
+.header_contactholder { margin: 0 2%; width: 96%;}
+.header_emailholder { margin: 0 2%; width: 96%;}
+
+}
+
+@media screen and (max-width: 417px) {
+
+
+.service ul li { width: 83%;}
+.footer_menu ul li a{ font-size:12px;}
+.copyright p{ font-size:12px;}
+
+.gallery ul li { width: 80%; margin: 5% auto; float: none; display: block;}
+
+}
+
+@media screen and (max-width: 384px) {
+
+h1 { font-size: 28px; line-height: 30px;}
+.service ul li { width: 90%;}
+
+.gallery ul li { width: 90%;}
+
+}
+
+@media screen and (max-width: 360px) {
+
+.service ul li { width: 96%;}
+.gallery ul li { width: 96%;}
+
+}
+
+@media screen and (max-width: 320px) {
+
+h2 { font-size: 20px;}
+
+}
+
+@media screen and (max-width: 240px) {
+
+.anouncement h2 { font-size: 18px;}
+.service_title h2 { font-size: 21px;}
+
+}
